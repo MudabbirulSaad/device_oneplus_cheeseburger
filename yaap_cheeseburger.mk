@@ -24,9 +24,6 @@ $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-# Lawnchair
-$(call inherit-product-if-exists, vendor/yaap-prebuilts/lawnchair.mk)
-
 # Gapps
 TARGET_BUILD_GAPPS := true
 
