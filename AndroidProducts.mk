@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_cheeseburger.mk
+    $(LOCAL_DIR)/aosp_cheeseburger.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_cheeseburger-user \
-    yaap_cheeseburger-userdebug \
-    yaap_cheeseburger-eng
+    aosp_cheeseburger-user \
+    aosp_cheeseburger-userdebug \
+    aosp_cheeseburger-eng
