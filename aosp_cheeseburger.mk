@@ -22,11 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
-
-# Gapps
-TARGET_BUILD_GAPPS := true
-
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -47,3 +43,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=OnePlus5
 
 TARGET_VENDOR := oneplus
+
+TARGET_SUPPORTS_QUICK_TAP := true
+Elixir_MAINTAINER := MudabbirulSaad
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := UNOFFICIAL
