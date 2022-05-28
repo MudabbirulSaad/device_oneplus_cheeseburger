@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/saad/Desktop/op5/cheeseburger/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+COMMON_LUNCH_CHOICES	AndroidProducts.mk	/^COMMON_LUNCH_CHOICES := \\$/;"	m
+CUSTOM_BUILD_TYPE	aosp_cheeseburger.mk	/^CUSTOM_BUILD_TYPE := UNOFFICIAL$/;"	m
+DEVICE_PATH	BoardConfig.mk	/^DEVICE_PATH := device\/oneplus\/cheeseburger$/;"	m
+Elixir_MAINTAINER	aosp_cheeseburger.mk	/^Elixir_MAINTAINER := MudabbirulSaad$/;"	m
+IS_PHONE	aosp_cheeseburger.mk	/^IS_PHONE := true$/;"	m
+KeyDisabler	touch/KeyDisabler.cpp	/^KeyDisabler::KeyDisabler() : has_key_disabler_(!access(kControlPath, R_OK | W_OK)) {}$/;"	f	class:vendor::lineage::touch::V1_0::implementation::KeyDisabler
+KeyDisabler	touch/KeyDisabler.h	/^class KeyDisabler : public IKeyDisabler {$/;"	c	namespace:vendor::lineage::touch::V1_0::implementation
+KeySwapper	touch/KeySwapper.cpp	/^KeySwapper::KeySwapper() : has_key_swapper_(!access(kControlPath, R_OK | W_OK)) {}$/;"	f	class:vendor::lineage::touch::V1_0::implementation::KeySwapper
+KeySwapper	touch/KeySwapper.h	/^class KeySwapper : public IKeySwapper {$/;"	c	namespace:vendor::lineage::touch::V1_0::implementation
+LOCAL_MODULE	rootdir/Android.mk	/^LOCAL_MODULE           := init.target.rc$/;"	m
+LOCAL_MODULE_CLASS	rootdir/Android.mk	/^LOCAL_MODULE_CLASS     := ETC$/;"	m
+LOCAL_MODULE_PATH	rootdir/Android.mk	/^LOCAL_MODULE_PATH      := $(TARGET_OUT_VENDOR_ETC)\/init\/hw$/;"	m
+LOCAL_MODULE_TAGS	rootdir/Android.mk	/^LOCAL_MODULE_TAGS      := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	rootdir/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	rootdir/Android.mk	/^LOCAL_SRC_FILES        := etc\/init.target.rc$/;"	m
+LOG_TAG	touch/service.cpp	/^#define LOG_TAG /;"	d	file:
+PRODUCT_AAPT_CONFIG	device.mk	/^PRODUCT_AAPT_CONFIG := normal$/;"	m
+PRODUCT_AAPT_PREF_CONFIG	device.mk	/^PRODUCT_AAPT_PREF_CONFIG := xxhdpi$/;"	m
+PRODUCT_BRAND	aosp_cheeseburger.mk	/^PRODUCT_BRAND := OnePlus$/;"	m
+PRODUCT_DEVICE	aosp_cheeseburger.mk	/^PRODUCT_DEVICE := cheeseburger$/;"	m
+PRODUCT_GMS_CLIENTID_BASE	aosp_cheeseburger.mk	/^PRODUCT_GMS_CLIENTID_BASE := android-oneplus$/;"	m
+PRODUCT_MAKEFILES	AndroidProducts.mk	/^PRODUCT_MAKEFILES := \\$/;"	m
+PRODUCT_MANUFACTURER	aosp_cheeseburger.mk	/^PRODUCT_MANUFACTURER := OnePlus$/;"	m
+PRODUCT_MODEL	aosp_cheeseburger.mk	/^PRODUCT_MODEL := ONEPLUS A5000$/;"	m
+PRODUCT_NAME	aosp_cheeseburger.mk	/^PRODUCT_NAME := aosp_cheeseburger$/;"	m
+PRODUCT_SYSTEM_DEVICE	aosp_cheeseburger.mk	/^PRODUCT_SYSTEM_DEVICE := OnePlus5$/;"	m
+PRODUCT_SYSTEM_NAME	aosp_cheeseburger.mk	/^PRODUCT_SYSTEM_NAME := OnePlus5$/;"	m
+TARGET_BOARD_INFO_FILE	BoardConfig.mk	/^TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)\/board-info.txt$/;"	m
+TARGET_BOOT_ANIMATION_RES	aosp_cheeseburger.mk	/^TARGET_BOOT_ANIMATION_RES := 1080$/;"	m
+TARGET_OTA_ASSERT_DEVICE	BoardConfig.mk	/^TARGET_OTA_ASSERT_DEVICE := cheeseburger,OnePlus5,oneplus5$/;"	m
+TARGET_SCREEN_HEIGHT	device.mk	/^TARGET_SCREEN_HEIGHT := 1920$/;"	m
+TARGET_SCREEN_WIDTH	device.mk	/^TARGET_SCREEN_WIDTH := 1080$/;"	m
+TARGET_SUPPORTS_QUICK_TAP	aosp_cheeseburger.mk	/^TARGET_SUPPORTS_QUICK_TAP := true$/;"	m
+TARGET_VENDOR	aosp_cheeseburger.mk	/^TARGET_VENDOR := oneplus$/;"	m
+V1_0	touch/KeyDisabler.cpp	/^namespace V1_0 {$/;"	n	namespace:vendor::lineage::touch	file:
+V1_0	touch/KeyDisabler.h	/^namespace V1_0 {$/;"	n	namespace:vendor::lineage::touch
+V1_0	touch/KeySwapper.cpp	/^namespace V1_0 {$/;"	n	namespace:vendor::lineage::touch	file:
+V1_0	touch/KeySwapper.h	/^namespace V1_0 {$/;"	n	namespace:vendor::lineage::touch
+__anon6ed5c2f30111	touch/KeySwapper.cpp	/^namespace {$/;"	n	file:
+__anonab4984770111	touch/KeyDisabler.cpp	/^namespace {$/;"	n	file:
+has_key_disabler_	touch/KeyDisabler.h	/^    const bool has_key_disabler_;$/;"	m	class:vendor::lineage::touch::V1_0::implementation::KeyDisabler	typeref:typename:const bool
+has_key_swapper_	touch/KeySwapper.h	/^    const bool has_key_swapper_;$/;"	m	class:vendor::lineage::touch::V1_0::implementation::KeySwapper	typeref:typename:const bool
+implementation	touch/KeyDisabler.cpp	/^namespace implementation {$/;"	n	namespace:vendor::lineage::touch::V1_0	file:
+implementation	touch/KeyDisabler.h	/^namespace implementation {$/;"	n	namespace:vendor::lineage::touch::V1_0
+implementation	touch/KeySwapper.cpp	/^namespace implementation {$/;"	n	namespace:vendor::lineage::touch::V1_0	file:
+implementation	touch/KeySwapper.h	/^namespace implementation {$/;"	n	namespace:vendor::lineage::touch::V1_0
+isEnabled	touch/KeyDisabler.cpp	/^Return<bool> KeyDisabler::isEnabled() {$/;"	f	class:vendor::lineage::touch::V1_0::implementation::KeyDisabler	typeref:typename:Return<bool>
+isEnabled	touch/KeySwapper.cpp	/^Return<bool> KeySwapper::isEnabled() {$/;"	f	class:vendor::lineage::touch::V1_0::implementation::KeySwapper	typeref:typename:Return<bool>
+kControlPath	touch/KeyDisabler.cpp	/^constexpr const char kControlPath[] = "\/proc\/touchpanel\/key_disable";$/;"	v	namespace:__anonab4984770111	typeref:typename:const char[]
+kControlPath	touch/KeySwapper.cpp	/^constexpr const char kControlPath[] = "\/proc\/s1302\/key_rep";$/;"	v	namespace:__anon6ed5c2f30111	typeref:typename:const char[]
+kFpcPath	touch/KeyDisabler.cpp	/^constexpr const char kFpcPath[] =$/;"	v	namespace:__anonab4984770111	typeref:typename:const char[]
+lineage	touch/KeyDisabler.cpp	/^namespace lineage {$/;"	n	namespace:vendor	file:
+lineage	touch/KeyDisabler.h	/^namespace lineage {$/;"	n	namespace:vendor
+lineage	touch/KeySwapper.cpp	/^namespace lineage {$/;"	n	namespace:vendor	file:
+lineage	touch/KeySwapper.h	/^namespace lineage {$/;"	n	namespace:vendor
+main	touch/service.cpp	/^int main() {$/;"	f	typeref:typename:int
+setEnabled	touch/KeyDisabler.cpp	/^Return<bool> KeyDisabler::setEnabled(bool enabled) {$/;"	f	class:vendor::lineage::touch::V1_0::implementation::KeyDisabler	typeref:typename:Return<bool>
+setEnabled	touch/KeySwapper.cpp	/^Return<bool> KeySwapper::setEnabled(bool enabled) {$/;"	f	class:vendor::lineage::touch::V1_0::implementation::KeySwapper	typeref:typename:Return<bool>
+touch	touch/KeyDisabler.cpp	/^namespace touch {$/;"	n	namespace:vendor::lineage	file:
+touch	touch/KeyDisabler.h	/^namespace touch {$/;"	n	namespace:vendor::lineage
+touch	touch/KeySwapper.cpp	/^namespace touch {$/;"	n	namespace:vendor::lineage	file:
+touch	touch/KeySwapper.h	/^namespace touch {$/;"	n	namespace:vendor::lineage
+vendor	touch/KeyDisabler.cpp	/^namespace vendor {$/;"	n	file:
+vendor	touch/KeyDisabler.h	/^namespace vendor {$/;"	n
+vendor	touch/KeySwapper.cpp	/^namespace vendor {$/;"	n	file:
+vendor	touch/KeySwapper.h	/^namespace vendor {$/;"	n

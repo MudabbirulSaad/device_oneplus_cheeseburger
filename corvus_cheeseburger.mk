@@ -22,12 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := aosp_cheeseburger
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
+PRODUCT_NAME := corvus_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -44,7 +46,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 TARGET_VENDOR := oneplus
 
-TARGET_SUPPORTS_QUICK_TAP := true
-Elixir_MAINTAINER := MudabbirulSaad
-IS_PHONE := true
-CUSTOM_BUILD_TYPE := UNOFFICIAL
+AVEN_LAIR=Unofficial
+CORVUS_MAINTAINER=MudabbirulSaad
+USE_GAPPS=true
