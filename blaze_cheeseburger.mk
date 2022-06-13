@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -44,7 +44,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 TARGET_VENDOR := oneplus
 
+WITH_GAPPS := true
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := AURORA
 TARGET_SUPPORTS_QUICK_TAP := true
-Elixir_MAINTAINER := MudabbirulSaad
-IS_PHONE := true
-CUSTOM_BUILD_TYPE := UNOFFICIAL
+TARGET_USE_PIXEL_CHARGER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
