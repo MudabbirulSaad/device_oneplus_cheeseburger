@@ -23,10 +23,11 @@ $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-# Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
 
+# Pixel Launcher
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := aosp_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
@@ -44,7 +45,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 TARGET_VENDOR := oneplus
 
-TARGET_SUPPORTS_QUICK_TAP := true
-Elixir_MAINTAINER := MudabbirulSaad
 IS_PHONE := true
-CUSTOM_BUILD_TYPE := UNOFFICIAL
+TARGET_SUPPORTS_QUICK_TAP := true
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
