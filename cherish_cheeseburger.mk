@@ -22,13 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Pixel Launcher
-$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-PRODUCT_NAME := aosp_cheeseburger
+PRODUCT_NAME := cherish_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -44,9 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=OnePlus5
 
 TARGET_VENDOR := oneplus
-ELIXIR_MAINTAINER := Saad
-ELIXIR_BUILD_TYPE := OFFICIAL
-IS_PHONE := true
+TARGET_GAPPS_ARCH := arm64
+CHERISH_VANILLA := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
