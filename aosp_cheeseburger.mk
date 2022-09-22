@@ -24,9 +24,6 @@ $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Pixel Launcher
-$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
-
 TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := aosp_cheeseburger
 PRODUCT_DEVICE := cheeseburger
