@@ -46,6 +46,9 @@ BUILD_FINGERPRINT := OnePlus/OnePlus5/OnePlus5:10/QKQ1.191014.012/2010292059:use
 
 TARGET_VENDOR := oneplus
 
+# Rounded corners
+TARGET_USES_ROUNDED_CORNER := true
+
 # Project-Elixir Stuff
 IS_PHONE := true
 ELIXIR_BUILD_TYPE := OFFICIAL
