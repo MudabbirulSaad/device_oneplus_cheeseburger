@@ -8,6 +8,7 @@ echo ""
 echo "Cloning msm8998-common Tree"
 rm -rf device/oneplus/msm8998-common
 git clone --depth=1 https://github.com/MudabbirulSaad/device_oneplus_msm8998-common -b A13ELXR device/oneplus/msm8998-common
+rm -rf device/oneplus/msm8998-common/hidl/touch
 echo ""
 
 echo "Cloning Vendor blobs"
