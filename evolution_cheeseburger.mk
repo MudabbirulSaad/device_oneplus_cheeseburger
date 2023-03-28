@@ -38,9 +38,3 @@ TARGET_VENDOR := oneplus
 
 # Evolution X specific flags
 TARGET_SUPPORTS_QUICK_TAP := true
-
-# Dolby
-USE_DOLBY := true
-
-# Rounded corners
-TARGET_USES_ROUNDED_CORNER := true
